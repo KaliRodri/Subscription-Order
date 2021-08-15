@@ -13,8 +13,8 @@ header{
     margin-left: 350px;
     margin-top: 50px;
     display: block;
-    
-    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 header h1{
     color: rgb(3, 194, 194);
@@ -34,7 +34,8 @@ header main{
     text-align: left;
     padding: 25px;
     min-width: 275px;
-    
+    border-bottom-left-radius: 5px;
+
     margin-right: -350px;
     max-height: 200px;
 }
@@ -58,12 +59,14 @@ header main{
   font-size: 16px;
   width: 280px;
   
+  border-radius: 2px;
 }
+
 .asideleft button:hover{
     background-color: rgb(217, 255, 47);
     color: dimgray;
-    transition: color .5 linear;
-    transition: background .5 linear;
+    transition: color .2 linear;
+    transition: background .2 linear;
 
 }
 .asideleft .full{
@@ -82,6 +85,7 @@ header main{
     min-width: 245px;
     min-height: 192px;
     font-size: 12px;
+    border-bottom-right-radius: 5px;
     
     
 }
@@ -104,3 +108,7 @@ header main{
     color: rgba(64, 224, 208, 0.685);
     display: inline;
 }
+.attribution{
+    margin-top: 150px;
+}
+
