@@ -58,15 +58,15 @@ header main{
   display: inline-block;
   font-size: 16px;
   width: 280px;
-  
+  height: 46px;
   border-radius: 5px;
 }
 
 .asideleft button:hover{
     background-color: rgb(217, 255, 47);
     color: dimgray;
-    transition: color .2 linear;
-    transition: background .2 linear;
+    transition: color 0.2 linear;
+    transition: background 0.2 linear;
 
 }
 .asideleft .full{
@@ -111,4 +111,5 @@ header main{
 .attribution{
     margin-top: 150px;
 }
+
 
