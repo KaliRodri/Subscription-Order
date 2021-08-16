@@ -8,12 +8,12 @@
     }
     header{
         background-color: white;
-        min-width: 500px;
         text-align: center;
         padding: 15px;
         margin-top: 150px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
+        min-width: 500px;
     }
     header h1{
         color: rgb(3, 194, 194);
@@ -24,7 +24,7 @@
         font-weight: lighter;
     }
     header main{
-        line-height: 0.5;
+        
         color: rgba(128, 128, 128, 0.637);
     }
     .asideleft{
@@ -32,6 +32,7 @@
         text-align: center;
         display: block;
         padding: 25px;
+        margin: auto;
         min-width: 500px;
     }
     .asideleft p{
@@ -75,6 +76,7 @@
         padding: 25px;
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
+        margin: auto;
         min-width: 500px;
     }
     .asideright p{
