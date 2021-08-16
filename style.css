@@ -1,8 +1,5 @@
 .principal{
     display: grid;
-    column-gap: -500px;
-  
-    
 }
 body{
     background-color: rgba(173, 216, 230, 0.452);
@@ -20,11 +17,13 @@ header{
     min-width: 630px;
     margin: auto;
     padding: 25px;
-    margin-top: 55px;
+    margin-top: 75px;
     grid-row: 1;
     text-align: left;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 7px -5px 75px rgba(0, 0, 0, 0.247);
+    box-shadow: 7px 250px 75px rgba(0, 0, 0, 0.349);
 }
 header h1{
     color: rgb(3, 194, 194);
@@ -50,8 +49,9 @@ header main{
     margin-bottom: auto;
     margin-left: auto;
     margin-right: 0;
-    height: 270px;
-    border-bottom-left-radius: 5px;
+    height: 200px;
+    border-bottom-left-radius: 8px;
+    
 
 }
 .asideleft p{
@@ -86,26 +86,28 @@ header main{
     color: rgba(255, 255, 255, 0.801);
 }
 .asideright{
-    background-color: rgb(103, 207, 197);
-    display: inline-grid;
-    text-align: left;
-    padding: 25px;
-    grid-row: 2;
+   background-color: rgb(103, 207, 197);
+   display: inline-grid;
+   text-align: left;
+   padding: 25px;
+   grid-row: 2;
    grid-column: 2;
    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 0;
-    margin-right: auto;
-   height: 270px;
+   margin-bottom: auto;
+   margin-left: 0;
+   margin-right: auto;
+   height: 200px;
    min-width: 300px;
    line-height: 1px;
-   border-bottom-right-radius: 5px;
+   border-bottom-right-radius: 8px;
+   
 
     
 }
 .asideright p{
-    color: rgba(255, 255, 255, 0.664);
-    padding-top: 4px;
+    color: rgba(255, 255, 255, 0.548);
+    font-size: 14px;
+   
 }
 .why{
     font-size: 20px;
@@ -124,5 +126,5 @@ header main{
     font-size: 17px;
 }
 .attribution{
-    margin-top: 150px;
+    margin-top: 50px;
 }
