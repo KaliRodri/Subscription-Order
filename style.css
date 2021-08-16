@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen  and (max-width: 600px){
     body{
         background-color: rgba(173, 216, 230, 0.452);
         font-family: sans-serif;
@@ -14,7 +14,6 @@
         margin-top: 150px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
-
     }
     header h1{
         color: rgb(3, 194, 194);
@@ -33,6 +32,7 @@
         text-align: center;
         display: block;
         padding: 25px;
+        margin: auto;
     }
     .asideleft p{
         color: white;
@@ -75,6 +75,7 @@
         padding: 25px;
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
+        margin: auto;
     }
     .asideright p{
         color: rgba(255, 255, 255, 0.548);
