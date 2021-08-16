@@ -1,3 +1,13 @@
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: rgba(223, 73, 73, 0.452);
+        text-align: center;
+        font-family: sans-serif;
+        width: auto;
+        margin: auto;
+        display: block;
+    
+    }
 .principal{
     display: grid;
 }
