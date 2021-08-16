@@ -1,13 +1,14 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px){
     body{
-        background-color: rgba(223, 73, 73, 0.452);
+        background-color: rgba(255, 0, 0, 0.973);
         text-align: center;
         font-family: sans-serif;
         width: auto;
         margin: auto;
         display: block;
     
-    }
+}
+}
 .principal{
     display: grid;
 }
