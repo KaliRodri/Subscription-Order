@@ -13,7 +13,7 @@
         padding: 15px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
-        min-width: 515px;
+        min-width: 520px;
         margin: 150px auto auto auto
     }
     header h1{
@@ -69,6 +69,7 @@
     .asideleft .full{
         padding-bottom: 20px;
         color: rgba(255, 255, 255, 0.801);
+        font-size: 20px;
     }
     .asideright{
         background-color: rgb(103, 207, 197);
@@ -82,7 +83,7 @@
     }
     .asideright p{
         color: rgba(255, 255, 255, 0.548);
-        font-size: 14px;
+        font-size: 20px;
        
     }
     .why{
