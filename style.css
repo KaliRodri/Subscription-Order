@@ -1,20 +1,108 @@
 @media screen and (max-width: 600px){
     body{
-        background-color: rgb(0, 191, 255);
+        background-color: rgba(173, 216, 230, 0.452);
         font-family: sans-serif;
         width: auto;
         margin: auto;
         display: block;
     }
-    
     header{
         background-color: white;
+        min-width: 500px;
+        text-align: center;
+        padding: 15px;
+        margin-top: 150px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+
+    }
+    header h1{
+        color: rgb(3, 194, 194);
+        font-weight: lighter;
+    }
+    header h2{
+        color: rgb(203, 255, 80);
+        font-weight: lighter;
+    }
+    header main{
+        line-height: 0.5;
+        color: rgba(128, 128, 128, 0.637);
     }
     .asideleft{
         background-color: rgba(20, 167, 147, 0.733);
+        text-align: center;
+        display: block;
+        padding: 25px;
+    }
+    .asideleft p{
+        color: white;
+        font-size: 14px;
+        letter-spacing: 1px;
+        
+    }
+    .asideleft .title{
+        font-size: 22px;
+    }
+    .asideleft button{
+        background-color: #b6ff2f;
+        border: none;
+        color: white;
+        padding: 14px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 280px;
+        height: 46px;
+        border-radius: 5px;
+    
+    }
+    .asideleft button:hover{
+        background-color: rgb(217, 255, 47);
+        color: dimgray;
+        transition: color 0.2 linear;
+        transition: background 0.2 linear;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.158);
+    }
+    .asideleft .full{
+        padding-bottom: 20px;
+        color: rgba(255, 255, 255, 0.801);
     }
     .asideright{
         background-color: rgb(103, 207, 197);
+        text-align: center;
+        display: block;
+        padding: 25px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .asideright p{
+        color: rgba(255, 255, 255, 0.548);
+        font-size: 14px;
+       
+    }
+    .why{
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 15px;
+        color: white;
+    }
+    .dollar{
+        color: white;
+        font-size: 28px;
+        display: inline;
+    }
+    .month{
+        color: rgba(64, 224, 208, 0.685);
+        display: inline;
+        font-size: 17px;
+    }
+    .attribution{
+        margin-top: 50px;
+    }
+    .attribution{
+        margin-top: 50px;
+        text-align: center;
     }
 
 }
