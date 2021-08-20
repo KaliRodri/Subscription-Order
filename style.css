@@ -1,4 +1,8 @@
-@media only screen  and (max-width: 600px){
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen  and (max-width: 720px){
     body{
         background-color: rgba(173, 216, 230, 0.452);
         font-family: sans-serif;
@@ -14,18 +18,24 @@
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
         min-width: 520px;
-        margin: 150px auto auto auto
+        margin: 150px 50px auto 50px;
+        height: 200px;
     }
     header h1{
         color: rgb(3, 194, 194);
         font-weight: lighter;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 2.2em;
     }
     header h2{
         color: rgb(203, 255, 80);
         font-weight: lighter;
+        padding-bottom: 20px;
+        font-size: 1.8em;
     }
     header main{
-        
+        font-size: 1.1em;
         color: rgba(128, 128, 128, 0.637);
     }
     .asideleft{
@@ -33,8 +43,11 @@
         text-align: center;
         display: block;
         padding: 25px;
-        margin: auto;
+        padding-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
         min-width: 500px;
+        height: 180px;
     }
     .asideleft p{
         color: white;
@@ -53,9 +66,9 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-        width: 280px;
-        height: 46px;
+        font-size: 1.8em;
+        width: 450px;
+        height: 59px;
         border-radius: 5px;
     
     }
@@ -78,7 +91,8 @@
         padding: 25px;
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
-        margin: auto;
+        margin-left: 50px;
+        margin-right: 50px;
         min-width: 500px;
     }
     .asideright p{
@@ -109,6 +123,7 @@
         margin-top: 50px;
         text-align: center;
         min-width: 500px;
+        font-size: 1.5em;
     }
 
 }
