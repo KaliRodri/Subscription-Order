@@ -158,13 +158,16 @@ header{
 header h1{
     color: rgb(3, 194, 194);
     font-weight: lighter;
+    padding-top: 10px;
 }
 header h2{
     color: rgb(203, 255, 80);
     font-weight: lighter;
+    padding-top: 10px;
 }
 header main{
-    line-height: 0.5;
+    padding-top: 10px;
+    line-height: 1.5;
     color: rgba(128, 128, 128, 0.637);
 }
 .asideleft{
